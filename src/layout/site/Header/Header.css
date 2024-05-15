@@ -1,0 +1,63 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 50px;
+}
+.navTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+.navTopLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navTopLeft input{
+    padding: 7px;
+    border: none;
+    outline: none;
+}
+.navTop a{
+    color: black;
+}
+.navTopRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 20px;
+}
+.navTopRight a{
+    color: gray;
+}
+.navTopRight i{
+    color: gray;
+}
+.navTopRight sup{
+    padding: 3px 6px;
+    background: #7971E9;
+    color: white;
+    border-radius: 50%;
+}
+.navBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.navBottom ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.navBottom a{
+    color: black;
+}

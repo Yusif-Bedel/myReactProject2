@@ -1,0 +1,35 @@
+.hero{
+    background-image: url(https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg.webp);
+    width: 100%;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 20px;
+    flex-direction: column;
+    background-size: cover;
+    height: 100vh;
+}
+.heroText{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 450px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.hero h2{
+    font-size: 50px;
+}
+.hero p{
+font-size: 20px;
+}
+.hero a{
+font-size: 14px;
+color: white;
+padding: 15px;
+background: #7971ea;
+letter-spacing: 2px;
+border-radius: 10px;
+}

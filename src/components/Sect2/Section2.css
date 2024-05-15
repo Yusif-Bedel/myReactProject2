@@ -1,0 +1,35 @@
+.section2{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    padding: 50px;
+}
+.section2Card{
+width: 400px;
+overflow: hidden;
+position: relative;
+}
+.section2Card img{
+width: 400px;
+color: black;
+transition: 0.4s ease;
+}
+.section2Card img:hover{
+    scale: 1.1;
+}
+.section2Text{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+    font-weight: bold;
+    background: black;
+    width: 100%;    
+}

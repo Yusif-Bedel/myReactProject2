@@ -1,0 +1,25 @@
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    padding: 50px;
+}
+.section3 span{
+    width: 50px;
+    background: #7971ea;
+    height: 2px;
+    border-radius: 10px;
+}
+.section3 h2{
+    font-size: 32px;
+}
+.section3Cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-top: 50px;
+}

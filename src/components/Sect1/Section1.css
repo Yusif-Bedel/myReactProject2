@@ -1,0 +1,30 @@
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+.section1Card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.section1Card i{
+    color: #7971ea;
+    font-size: 50px;
+}
+.section1Card h4{
+    font-size: 24px;
+}
+.section1Card p{
+    font-size: 20px;
+}
+.section1Text{
+    display: flex;
+    justify-content: start;  
+    align-items: start;
+    gap: 10px;
+    flex-direction: column;
+}
